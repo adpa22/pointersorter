@@ -122,9 +122,9 @@ int main (int argc, char ** argv){
 	sort(0,x-1, words,sorted );
 	//printf("\n");
 	//printf("X: %i", x);
-	int fuck = 0;
-	for ( fuck; fuck < x; fuck ++){
-		printf("%s\n", sorted[fuck]);
+	int out = 0;
+	for ( out; out < x; out ++){
+		printf("%s\n", sorted[out]);
 	}
 
 	return 0;
